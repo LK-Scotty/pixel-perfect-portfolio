@@ -44,7 +44,7 @@ const ContactSection = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.98 }}
-          href="mailto:hello@yourname.dev"
+          href="mailto:noontide67@gmail.com"
           className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-10 py-5 rounded-full font-semibold text-lg transition-shadow duration-300 hover:shadow-[0_0_40px_hsl(72_100%_50%/0.3)]"
         >
           Say Hello
@@ -57,7 +57,7 @@ const ContactSection = () => {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="flex justify-center gap-8 mt-16"
         >
-          {["GitHub", "LinkedIn", "Twitter", "Dribbble"].map((social) => (
+          {["GitHub", "LinkedIn"].map((social) => (
             <a
               key={social}
               href="#"

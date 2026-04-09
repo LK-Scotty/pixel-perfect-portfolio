@@ -24,9 +24,9 @@ const AboutSection = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight"
           >
-            I craft digital
+            I build scalable
             <br />
-            <span className="gradient-text">experiences</span>
+            <span className="gradient-text">digital solutions</span>
           </motion.h2>
         </div>
 
@@ -37,9 +37,7 @@ const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground leading-relaxed"
           >
-            With over 5 years of experience in full-stack development, I specialize in creating
-            performant, accessible, and visually stunning web applications. I believe great software
-            is an art form — every pixel, every interaction, every millisecond matters.
+            Full Stack Developer with 9+ years delivering high-quality websites, web applications, and scalable digital solutions. Strong focus on Frontend development with deep expertise in Shopify, JavaScript, modern frameworks, and performance optimization.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -47,8 +45,7 @@ const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="text-lg text-muted-foreground leading-relaxed"
           >
-            Currently focused on React ecosystems, creative coding, and pushing the boundaries
-            of what's possible on the web.
+            Experienced in system integrations, SEO best practices, and leading technical teams. Skilled in building complete products — web apps, tools, scripts, extensions, and even game prototypes.
           </motion.p>
 
           <motion.div
@@ -58,9 +55,9 @@ const AboutSection = () => {
             className="grid grid-cols-2 gap-8 mt-8"
           >
             {[
-              { number: "50+", label: "Projects Completed" },
-              { number: "5+", label: "Years Experience" },
-              { number: "30+", label: "Happy Clients" },
+              { number: "9+", label: "Years Experience" },
+              { number: "6+", label: "Companies" },
+              { number: "3", label: "Languages Spoken" },
               { number: "∞", label: "Lines of Code" },
             ].map((stat, i) => (
               <div key={i} className="border-l border-primary/30 pl-4">
