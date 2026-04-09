@@ -23,7 +23,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-mono text-sm tracking-[0.3em] uppercase text-muted-foreground mb-8"
         >
-          Developer & Creative Technologist
+          Full Stack Developer · Monterrey, MX
         </motion.p>
 
         <div className="overflow-hidden">
@@ -33,8 +33,8 @@ const HeroSection = () => {
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
             className="text-[clamp(3rem,12vw,12rem)] font-bold leading-[0.85] tracking-[-0.04em]"
           >
-            <span className="block">Creative</span>
-            <span className="block text-stroke">Developer</span>
+            <span className="block">Luis</span>
+            <span className="block text-stroke">Cortez</span>
           </motion.h1>
         </div>
 
@@ -45,7 +45,7 @@ const HeroSection = () => {
           className="mt-12 flex items-end justify-between"
         >
           <p className="max-w-md text-muted-foreground text-lg leading-relaxed">
-            Building digital experiences that live at the intersection of design and technology.
+            9+ years crafting high-performance web apps, Shopify stores, and scalable digital solutions.
           </p>
           <motion.div
             animate={{ y: [0, 8, 0] }}

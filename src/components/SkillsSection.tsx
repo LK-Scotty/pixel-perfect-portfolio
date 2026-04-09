@@ -2,19 +2,19 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const skills = [
-  { name: "React / Next.js", level: 95 },
-  { name: "TypeScript", level: 92 },
-  { name: "Node.js", level: 88 },
-  { name: "Three.js / WebGL", level: 78 },
-  { name: "PostgreSQL", level: 85 },
-  { name: "Tailwind CSS", level: 95 },
-  { name: "Docker / CI-CD", level: 80 },
-  { name: "GraphQL", level: 82 },
+  { name: "JavaScript / TypeScript", level: 95 },
+  { name: "React / Vue / Angular", level: 92 },
+  { name: "Shopify / Liquid", level: 95 },
+  { name: "Node.js / Laravel", level: 88 },
+  { name: "HTML / CSS / SASS", level: 97 },
+  { name: "Docker / AWS / K8s", level: 80 },
+  { name: "SEO / Performance", level: 85 },
+  { name: "MySQL / SQLite / NoSQL", level: 82 },
 ];
 
 const marqueeItems = [
-  "React", "TypeScript", "Node.js", "PostgreSQL", "GraphQL", "Docker",
-  "AWS", "Three.js", "Figma", "Git", "Redis", "WebSockets",
+  "React", "TypeScript", "Shopify", "Node.js", "Vue", "Angular",
+  "Laravel", "Docker", "AWS", "jQuery", "Liquid", "PHP",
 ];
 
 const SkillsSection = () => {
